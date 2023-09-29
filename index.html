@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="swiper.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ShutterSense</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Shutter<span>Sense</span></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#browse" class="nav__link">Browse</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Sign In</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__bg">
+          <div class="home__image">
+            <div class="home__blob">
+              <img
+                src="images/Camera1.png"
+                alt="Expensive Camera"
+                class="home__img"
+              />
+            </div>
+          </div>
+          <div class="home__container container grid">
+            <div class="home__content">
+              <div class="home__data">
+                <h3 class="home__subtitle">Highest Quality Cameras!</h3>
+                <h1 class="home__title">Sense The Moment Capture The Memory</h1>
+
+                <div class="home__button">
+                  <a href="#" class="button">Shop Now</a>
+                </div>
+              </div>
+              <div class="home__info">
+                <div>
+                  <h3 class="home__info-title">10K</h3>
+                  <span class="home__info-subtitle"> Cameras </span>
+                </div>
+                <div>
+                  <h3 class="home__info-title">20K</h3>
+                  <span class="home__info-subtitle"> Accessories </span>
+                </div>
+                <div>
+                  <h3 class="home__info-title">36</h3>
+                  <span class="home__info-subtitle"> Awards </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products section" id="products">
+        <div class="products__container container">
+          <div class="products__data">
+            <h2 class="section__title">Our Cameras</h2>
+            <p class="products__description">The Perfect Shot Everytime</p>
+          </div>
+
+          <h3 class="section__title">Popular Cameras</h3>
+
+          <div class="popular__content grid swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Camera2.png"
+                    alt="Camera"
+                    class="popular__img"
+                    style="width: 200px; height: 120px"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter XA70</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">High Definition</p>
+                  <p class="popular__feature">1TB Memory Card</p>
+                  <p class="popular__feature">Rechargeable Batteries</p>
+                </div>
+                <h3 class="popular__price">$3000.00</h3>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Camera1.png"
+                    alt="Camera"
+                    class="popular__img"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter 4k PWX</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">Night vision capabilities</p>
+                  <p class="popular__feature">Cloud storage options</p>
+                  <p class="popular__feature">Mobile app control</p>
+                </div>
+                <h3 class="popular__price">$4000.00</h3>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Camera3.png"
+                    alt="Camera"
+                    class="popular__img"
+                    style="width: 250px; height: 170px"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter H16</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">Two-way audio</p>
+                  <p class="popular__feature">Weather-resistant design</p>
+                  <p class="popular__feature">Pan and tilt functionality</p>
+                </div>
+                <h3 class="popular__price">$500.00</h3>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Camera4.png"
+                    alt="Camera"
+                    class="popular__img"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter XA70</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">Infrared illumination</p>
+                  <p class="popular__feature">Time-lapse recording</p>
+                  <p class="popular__feature">Multiple memory card slots</p>
+                </div>
+                <h3 class="popular__price">$300.00</h3>
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products section" id="products">
+        <div class="products__container container">
+          <div class="products__data">
+            <h2 class="section__title">Popular Accessories</h2>
+            <p class="products__description"></p>
+          </div>
+
+          <div class="popular__content grid swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Accessory1.png"
+                    alt="Camera"
+                    class="popular__img"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter Starlight</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">Motorized Functions</p>
+                  <p class="popular__feature">Sound-Activated</p>
+                  <p class="popular__feature">DMX 512</p>
+                </div>
+                <h3 class="popular__price">$1500.00</h3>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Accessory3.png"
+                    alt="Camera"
+                    class="popular__img"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter Tripod</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">Adjustable Legs</p>
+                  <p class="popular__feature">Center Column Hook</p>
+                  <p class="popular__feature">Interchangeable Heads</p>
+                </div>
+                <h3 class="popular__price">$750.00</h3>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Accessory4.png"
+                    alt="Camera"
+                    class="popular__img"
+                    style="width: 250px; height: 170px"
+                  />
+                </div>
+                <h3 class="popular__title">ShutterCharge</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">High-Capacity</p>
+                  <p class="popular__feature">LED Indicators</p>
+                  <p class="popular__feature">Multiple Battery Packs</p>
+                </div>
+                <h3 class="popular__price">$150.00</h3>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__blob">
+                  <img
+                    src="images/Accessory5.png"
+                    alt="Camera"
+                    class="popular__img"
+                  />
+                </div>
+                <h3 class="popular__title">Shutter Lens</h3>
+                <div class="popular__features">
+                  <p class="popular__feature">High-Quality Optics</p>
+                  <p class="popular__feature">Image Stabilization</p>
+                  <p class="popular__feature">Fast & Accurate Autofocus</p>
+                </div>
+                <h3 class="popular__price">$700.00</h3>
+              </article>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="browse section" id="browse">
+        <div class="browse__container container grid">
+          <div class="browse__data">
+            <h2 class="section__title">Browse Cameras</h2>
+          </div>
+
+          <div class="browse__content">
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Camera2.png"
+                  alt="Camera"
+                  class="browse__img"
+                  style="width: 250px"
+                />
+              </div>
+              <h3 class="browse__name">Video Cameras</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Camera6.png"
+                  alt="Camera"
+                  class="browse__img"
+                />
+              </div>
+              <h3 class="browse__name">Webcams</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Camera10.png"
+                  alt="Camera"
+                  class="browse__img"
+                />
+              </div>
+              <h3 class="browse__name">Action Cameras</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Camera3.png"
+                  alt="Camera"
+                  class="browse__img"
+                />
+              </div>
+              <h3 class="browse__name">Film Cameras</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Camera8.png"
+                  alt="Camera"
+                  class="browse__img"
+                />
+              </div>
+              <h3 class="browse__name">Security</h3>
+              <h3 class="browse__name">Cameras</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Camera5.png"
+                  alt="Camera"
+                  class="browse__img"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="browse__name">DSLR Cameras</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="browse section" id="browse">
+        <div class="browse__container container grid">
+          <div class="browse__data">
+            <h2 class="section__title">Browse Accessories</h2>
+          </div>
+
+          <div class="browse__content">
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Accessory5.png"
+                  alt="Camera"
+                  class="browse__img"
+                  style="width: 125px"
+                />
+              </div>
+              <h3 class="browse__name">Lenses</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Accessory3.png"
+                  alt="Camera"
+                  class="browse__img"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="browse__name">Tripods</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Accessory4.png"
+                  alt="Camera"
+                  class="browse__img"
+                />
+              </div>
+              <h3 class="browse__name">Batteries</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Accessory6.png"
+                  alt="Camera"
+                  class="browse__img"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="browse__name">Memory Cards</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Accessory7.png"
+                  alt="Camera"
+                  class="browse__img"
+                />
+              </div>
+              <h3 class="browse__name">Camera</h3>
+              <h3 class="browse__name">Bags</h3>
+            </article>
+
+            <article class="browse__card">
+              <div class="browse__blob">
+                <img
+                  src="images/Accessory8.png"
+                  alt="Camera"
+                  class="browse__img"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="browse__name">Camera</h3>
+              <h3 class="browse__name">Remotes</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container">
+          <div class="about__content">
+            <article class="about__card">
+              <h3 class="about__title">What We Do</h3>
+              <p class="about__description">
+                Cameras capture more than just images; they capture life's
+                precious moments, preserving them for generations to come. With
+                every click of the shutter, we freeze time and create memories
+                that will last a lifetime. At ShutterSense, we believe that
+                every moment is worth capturing, and every story is worth
+                telling. Let us help you capture your story, one moment at a
+                time.
+              </p>
+            </article>
+            <article class="about__card">
+              <h3 class="about__title">Our Vision</h3>
+              <p class="about__description">
+                Our mission is to provide you with the tools and resources you
+                need to unleash your creativity and capture your unique
+                perspective on the world. Whether you're a professional
+                photographer or a casual hobbyist, we're here to support you on
+                your journey. We believe that photography has the power to
+                connect people, to inspire change, and to make the world a
+                better place, one shot at a time.
+              </p>
+            </article>
+            <article class="about__card">
+              <form>
+                <h3 class="join__title">Register With Us!</h3>
+                <h3 class="join__subtitle">
+                  Snap Your Way To <br />Sense-Sational Photos!
+                </h3>
+                <label for="fname">Name</label> <br />
+                <input type="text" id="fname" name="fname" /> <br />
+                <label for="email">Email</label> <br />
+                <input type="email" id="email" name="email" /> <br />
+                <label for="password">Password</label> <br />
+                <input type="password" id="password" name="password" /> <br />
+                <label for="confirm">Confirm Password</label> <br />
+                <input type="password" id="confirm" name="confirm" /> <br />
+                <button class="submit">Join Now!</button>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="#" class="nav__logo">Shutter<span>Sense</span></a>
+            <div class="footer__Description">
+              Where Every Picture Tells A Story
+            </div>
+          </div>
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">Contact Us</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link"
+                    ><i class="ri-mail-line"></i>info@shuttersense.com</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link"
+                    ><i class="ri-phone-line"></i>(555) 123-4567</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link"
+                    ><i class="ri-map-pin-line"></i>123 Main Street, Anytown
+                    USA</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Learn More</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Our History</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Staff & Employees</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Our Products</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Membership</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Become A Member</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">About Membership</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Benefits</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Member Login</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-stuff">
+              <h3 class="footer__follow">Follow Us</h3>
+              <ul class="footer__follow-links">
+                <li>
+                  <a href="#" class="footer__img"
+                    ><img src="images/facebook.png" alt=""
+                  /></a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__img"
+                    ><img src="images/instagram.png" alt=""
+                  /></a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__img"
+                    ><img src="images/twitter.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__group">
+          <div class="footer__terms">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+
+          <span class="footer__copy">
+            © 2023 ShutterSense. All Rights Reserved.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="scrollreveal.js"></script>
+    <script src="swiper.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
