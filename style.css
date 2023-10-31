@@ -218,7 +218,7 @@ body.dark-theme {
   .nav__menu {
     position: fixed;
     left: 0;
-    top: -100%;
+    top: -1000%;
     background-color: var(--nav-bar);
     width: 100%;
     padding-block: 4rem;
